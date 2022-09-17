@@ -17,6 +17,7 @@ func TestNewTree(t *testing.T) {
 	DeleteOne(root, 3)
 	DeleteOne(root, 9)
 	DeleteOne(root, 5)
+	DeleteOne(root, 4)
 	layers := [][]*Btree{}
 	stack := []*Btree{root}
 	for len(stack) != 0 {
